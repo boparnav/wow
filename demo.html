@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>WOW</title>
+  <link rel="stylesheet" href="css/libs/animate.css">
+  <link rel="stylesheet" href="css/site.css">
+  
+  
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>WOW.js</h1>
+    </header>
+    <div id="main">
+      <section class="" style="background-color: #f1c40f;">
+		<img class="wow pulse" src="https://cdn.windowsreport.com/wp-content/uploads/2017/12/animation-software-kids.png" height="200" width="200">
+	  
+	  </section>
+      <section class="wow shake" style="background-color: #e74c3c;" data-wow-iteration="infinite" data-wow-duration="1500ms"></section>
+      <section class="section--purple wow slideInRight" data-wow-delay="2s"></section>
+      <section class="section--blue wow bounceInLeft" data-wow-offset="300"></section>
+      <section class="section--green wow slideInLeft" data-wow-duration="4s"></section>
+      <button id="moar">LOAD MOAR!!</button>
+    </div>
+  </div>
+  <script src="dist/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        
+      }
+    );
+    wow.init();
+  
+  </script>
+</body>
+</html>

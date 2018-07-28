@@ -1,0 +1,44 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<title> HTML Bootstrap </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+#wrapper{
+         width:960px;
+	     margin:0 auto;
+         background-color:white;
+         
+		 }
+
+#header{
+        background-color:red;
+       }
+#nav{
+    background-color:purple;
+    }
+<script>
+
+
+
+
+
+
+</script>
+</style>
+</head>
+<body>
+<div id="wrapper">
+<div  class="row" id="header">
+<div class="col-md-12">
+   <h1> header</h1>
+
+</div>
+</div>
+<div  class="row" id="nav">
+<div class ="col-md-12">
+<h1>navigation</h1>
+</div>
+</div>
